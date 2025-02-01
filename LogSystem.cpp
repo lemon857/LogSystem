@@ -23,6 +23,7 @@ bool LogSystem::Init() {
 
 bool LogSystem::InitFilestream(std::string relativePathToDirectory) {
 // Not implemented now, maybe later
+  return false;
 }
 void LogSystem::UninitFilestream() {
 // Not implemented now, maybe later
