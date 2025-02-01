@@ -1,0 +1,1 @@
+This is a *simple* library for comfort logging some text in console
