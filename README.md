@@ -17,3 +17,5 @@ Enable debugging in file:
 Enable debugging with date and time:  
 `#define __LOG_DATETIME__`  
 `#define __LOG_DATETIME_FORMAT__ "%Y-%m-%d %H:%M:%S"`
+
+use `add_compile_definitions(param)` in CMakeLists.txt for set params

@@ -31,7 +31,7 @@ std::string get_current_date_time() {
 	char buffer[128];
 	strftime(buffer, sizeof(buffer), __LOG_DATETIME_FORMAT__, now);
 	return std::string(buffer) + "." + tmp.substr(tmp.size() - 3);
-#elif
+#else
   return "";
 #endif
 }
